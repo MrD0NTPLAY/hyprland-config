@@ -1,7 +1,5 @@
 # BEGIN_KITTY_THEME
-# Dracula
-font_size 12.0
-font_family Ubuntu Nerd Font
+# Catppuccin-Frappe
 include current-theme.conf
+font_size 12.0
 # END_KITTY_THEME
-fish
