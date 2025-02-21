@@ -1,0 +1,58 @@
+<!DOCTYPE patchbay>
+<patchbay name="m-game-solo" version="0.8.1">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="System sink" port="System sink:output_FL"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX6"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="spotify" port="spotify:output_FR"/>
+   <input node="M-Game Solo Analog Surround 7.1" port="M-Game Solo:playback_RR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="spotify" port="spotify:output_FL"/>
+   <input node="Music sink" port="Music sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="spotify" port="spotify:output_FR"/>
+   <input node="Music sink" port="Music sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Music sink" port="Music sink:output_FR"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX5"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="spotify" port="spotify:output_FL"/>
+   <input node="M-Game Solo Analog Surround 7.1" port="M-Game Solo:playback_RL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chat sink" port="Chat sink:output_FR"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX3"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Game sink" port="Game sink:output_FR"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chat sink" port="Chat sink:output_FL"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Bumblebee II USB Microphone Mono" port="Bumblebee II USB Microphone:capture_MONO"/>
+   <input node="M-Game Solo Analog Surround 7.1" port="M-Game Solo:playback_FC"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Game sink" port="Game sink:output_FL"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Music sink" port="Music sink:output_FL"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX4"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="System sink" port="System sink:output_FR"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX7"/>
+  </item>
+ </items>
+</patchbay>
+
