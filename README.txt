@@ -1,7 +1,1 @@
-Programs
-Waybar
-Kitty
-Fish
-Hyprpaper
-Hyprland
-FastFetch
+Config Files for Personal Hyprland
